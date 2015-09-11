@@ -1,7 +1,7 @@
 /// <reference path='./typings/tsd.d.ts' />
 
 
-import Rx = require("Rx");
+import Rx = require("rx");
 
 
 var friends = Rx.Observable.from(["Inam", "Zeeshan", "Taha", "Hira"]);
