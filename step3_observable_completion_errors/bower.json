@@ -1,0 +1,22 @@
+{
+  "name": "step2_observables",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ziaukhan/learn-rxjs-typescript",
+  "authors": [
+    "Zia Khan <ziaukhan@hotmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "rxjs": "~3.1.2"
+  }
+}
