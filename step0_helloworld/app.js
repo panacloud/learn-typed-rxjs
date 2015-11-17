@@ -1,6 +1,3 @@
-/// <reference path='./typings/tsd.d.ts' />
-var Rx = require("rx");
-var friends = Rx.Observable.from(["Inam", "Zeeshan", "Taha", "Hira"]);
-friends.forEach(function (value) {
-    console.log(value);
-});
+var Rx = require('@reactivex/rxjs');
+Rx.Observable.of('hello world')
+    .subscribe(function (x) { console.log(x); });
