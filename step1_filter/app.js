@@ -1,5 +1,4 @@
-/// <reference path='./typings/tsd.d.ts' />
-var Rx = require("rx");
+var Rx = require('@reactivex/rxjs');
 var friends = Rx.Observable.from(["Inam", "Zeeshan", "Taha", "Hira"]);
 friends.filter(function (value) {
     if (value === "Hira") {

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "declaration": true,
+    "target": "es6",
+    "outDir": "dist/es6"
+  },
+   "files": [
+     "src/Rx.ts",
+     "src/Rx.KitchenSink.ts"
+   ]
+}

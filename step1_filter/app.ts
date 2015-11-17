@@ -1,7 +1,4 @@
-/// <reference path='./typings/tsd.d.ts' />
-
-
-import Rx = require("rx");
+import Rx = require('@reactivex/rxjs');
 
 
 var friends = Rx.Observable.from(["Inam", "Zeeshan", "Taha", "Hira"]);

@@ -1,6 +1,3 @@
-/// <reference path='./typings/tsd.d.ts' />
-
-
 var Observable = Rx.Observable;
 
 var button = document.getElementById('button');

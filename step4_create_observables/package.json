@@ -4,9 +4,7 @@
   "description": "Read: https://code.visualstudio.com/Docs/languages/typescript",
   "main": "app.js",
   "dependencies": {
-    "rx": "^3.1.2",
-    "rx-lite": "^3.1.2",
-    "typescript": "^1.5.3"
+    "@reactivex/rxjs": "^5.0.0-alpha.10"
   },
   "devDependencies": {},
   "scripts": {
