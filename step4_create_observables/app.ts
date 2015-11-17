@@ -1,8 +1,4 @@
-/// <reference path='./typings/tsd.d.ts' />
-
-
-import Rx = require("rx");
-
+import Rx = require('@reactivex/rxjs');
 
 var source = Rx.Observable.create(function(observer) {
   var id = setTimeout(function() {

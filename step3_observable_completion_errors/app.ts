@@ -1,6 +1,3 @@
-/// <reference path='./typings/tsd.d.ts' />
-
-
 var Observable = Rx.Observable;
 
 var button = document.getElementById('button');
@@ -11,7 +8,7 @@ var subscribtion = clicks.forEach(function OnNext(e){
 		alert("clicked");
 		subscribtion.dispose();
 	}, function onError(error){
-		console.log("Error");
+		alert("Error");
 	},
 	function onCompleted(){
 		console.log("Completed");
