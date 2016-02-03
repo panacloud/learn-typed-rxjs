@@ -1,0 +1,16 @@
+{
+  "name": "step00_helloworld",
+  "version": "1.0.0",
+  "description": "Read: https://code.visualstudio.com/Docs/languages/typescript",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^5.0.0-beta.1"
+  }
+}
