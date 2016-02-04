@@ -1,4 +1,4 @@
-import { Observable } from 'rxjs/Observable';
+import {Observable} from 'rxjs/Rx';
 //import { Subject } from 'rxjs/Subject';
 
 var button = document.getElementById('button');
