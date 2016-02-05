@@ -11,5 +11,6 @@ RxJS 5 Documentation:
 https://github.com/ReactiveX/RxJS/blob/master/doc/index.md
 
 To run:
+npm install
 npm start
 
