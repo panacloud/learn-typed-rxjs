@@ -1,14 +1,13 @@
 {
   "name": "step00_helloworld",
   "version": "1.0.0",
-  "description": "Read: https://code.visualstudio.com/Docs/languages/typescript",
-  "main": "app.js",
+  "description": "",
+  "main": "app.ts",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && node app"
   },
-  "author": "",
+  "author": "Zia Khan",
   "license": "ISC",
   "dependencies": {
     "rxjs": "^5.0.0-beta.1"
