@@ -26,7 +26,8 @@ function get(url) {
 }
 // Create an Ajax Observable
 var test = get('/app/contents.json');
-test.subscribe(function next(next: String){
-    console.log(next);
-});
-
+test.subscribe(
+function next(x) { console.log('Result: ' + x); },
+function error(err) { console.log('Error: ' + err); },
+function complete() { console.log('Completed'); }
+);

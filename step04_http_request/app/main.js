@@ -33,9 +33,7 @@ System.register(['rxjs/Rx'], function(exports_1) {
         execute: function() {
             // Create an Ajax Observable
             test = get('/app/contents.json');
-            test.subscribe(function next(next) {
-                console.log(next);
-            });
+            test.subscribe(function next(x) { console.log('Result: ' + x); }, function error(err) { console.log('Error: ' + err); }, function complete() { console.log('Completed'); });
         }
     }
 });
