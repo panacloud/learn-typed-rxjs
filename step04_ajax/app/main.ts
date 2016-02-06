@@ -1,5 +1,4 @@
 import {Observable, Observer} from 'rxjs/Rx';
-//import { Subject } from 'rxjs/Subject';
 
 function get(url) {
     return Observable.create(function(observer: Observer<String>) {
@@ -27,7 +26,8 @@ function get(url) {
 // Create an Ajax Observable
 var test = get('/app/contents.json');
 test.subscribe(
-function next(x) { console.log('Result: ' + x); },
-function error(err) { console.log('Error: ' + err); },
-function complete() { console.log('Completed'); }
+    function next(x) { console.log('Result: ' + x); },
+    function error(err) { console.log('Error: ' + err); },
+    function complete() { console.log('Completed'); }
 );
+
