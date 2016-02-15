@@ -1,7 +1,11 @@
 # Learn Reactive Programming with RxJS 5 and TypeScript
 Learn [RxJS 5](https://github.com/ReactiveX/RxJS) using [TypeScript](https://github.com/panacloud/learn-typescript) in Baby Steps. 
 
-Get started by Watching these videos: https://egghead.io/lessons/rxjs-reactive-programming-what-is-rxjs
+Get started by Watching these videos: 
+
+https://egghead.io/lessons/rxjs-reactive-programming-what-is-rxjs
+
+https://channel9.msdn.com/Shows/codechat/050
 
 Prerequsite:
 https://github.com/panacloud/learn-typescript
