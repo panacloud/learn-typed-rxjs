@@ -1,4 +1,4 @@
-import Rx = require('rxjs/Rx');
+import * as Rx from 'rxjs/Rx';
 
 var avg = Rx.Observable.interval(1000)
 .scan((prev, cur) => {

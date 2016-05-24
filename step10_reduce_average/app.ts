@@ -1,4 +1,4 @@
-import Rx = require('rxjs/Rx');
+import * as Rx from 'rxjs/Rx';
 
 var range = Rx.Observable.range(0, 5);
 var avg = range.reduce((prev, cur) => {

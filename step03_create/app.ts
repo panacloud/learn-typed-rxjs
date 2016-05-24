@@ -1,4 +1,4 @@
-import Rx = require('rxjs/Rx');
+import * as Rx from 'rxjs/Rx';
 
 /*
 https://github.com/ReactiveX/RxJS/blob/master/MIGRATION.md

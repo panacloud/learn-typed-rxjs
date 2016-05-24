@@ -1,4 +1,4 @@
-import Rx = require('rxjs/Rx');
+import * as Rx from 'rxjs/Rx';
 
 var src = Rx.Observable.range(1, 5);
 
