@@ -1,4 +1,8 @@
 import Rx = require('rxjs/Rx');
 
-Rx.Observable.of('hello world')
-  .subscribe(function(x) { console.log(x); });
+const simpleStream = Rx.Observable.of('hello world');
+
+simpleStream.subscribe((value) => {  
+   console.log(value);
+});
+

@@ -14,6 +14,14 @@ RxJS 5 Documentation:
 
 https://github.com/ReactiveX/RxJS/blob/master/doc/index.md
 
+If you dont have the book read:
+
+http://frontendgods.com/hello-rxjs-5/
+
+Watch Video:
+
+https://www.youtube.com/watch?v=KTlay8cZdAk
+
 To run:
 
 npm install
