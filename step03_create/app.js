@@ -10,4 +10,3 @@ var observable = Rx.Observable.create(function (observer) {
     observer.complete(); // We are done
 });
 observable.subscribe(function next(x) { console.log('Next: ' + x); }, function error(err) { console.log('Error: ' + err); }, function complete() { console.log('Completed'); });
-//# sourceMappingURL=app.js.map

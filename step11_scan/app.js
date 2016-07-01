@@ -13,4 +13,3 @@ var avg = Rx.Observable.interval(1000)
 var subscription = avg.subscribe(function (x) {
     console.log(x);
 });
-//# sourceMappingURL=app.js.map

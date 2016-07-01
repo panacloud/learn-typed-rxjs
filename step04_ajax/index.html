@@ -7,25 +7,16 @@
   <title>RxJS Sample in Browser</title>
   
   <!-- 1. Load libraries -->
-    <!-- IE required polyfills, in this exact order -->
-    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+    <!-- 1. Load libraries -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
     <script src="node_modules/rxjs/bundles/Rx.js"></script>
     
     
     <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
     <script>
-      System.config({
-        map: { 'rxjs': 'node_modules/rxjs' },
-        packages: {
-          app: { format: 'register', defaultExtension: 'js' },
-          'rxjs': {defaultExtension: 'js'}
-        }
-      });
-     
-      System.import('app/main')
-            .then(null, console.error.bind(console));
+      System.import('app').catch(function(err){ console.error(err); });
     </script>
 </head>
 

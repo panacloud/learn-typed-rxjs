@@ -13,4 +13,3 @@ var avg = range.reduce(function (prev, cur) {
 var subscription = avg.subscribe(function (x) {
     console.log('Average is: ', x);
 });
-//# sourceMappingURL=app.js.map

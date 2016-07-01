@@ -7,4 +7,3 @@ var upper = src.filter(function (val) {
 upper.subscribe(function (val) {
     console.log(val);
 });
-//# sourceMappingURL=app.js.map

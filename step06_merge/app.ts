@@ -7,12 +7,12 @@ var a = Rx.Observable.interval(200).map(function(i: number) {
 var b = Rx.Observable.interval(100).map(function(i: number) {
     return 'B' + i;
 });
-Rx.Observable.merge(a, b).subscribe(function(x: number) {
+
+var m = Rx.Observable.merge(a, b);
+
+m.subscribe(function(x: string) {
     console.log(x);
 });
-
-
-
 
 
 
