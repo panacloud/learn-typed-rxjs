@@ -12,7 +12,7 @@ http://www.amazon.com/Reactive-Programming-RxJS-Asynchronous-JavaScript-ebook/dp
 
 RxJS 5 Documentation:
 
-https://github.com/ReactiveX/RxJS/blob/master/doc/index.md
+http://reactivex.io/rxjs/manual/overview.html
 
 If you dont have the book read:
 
