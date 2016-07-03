@@ -3,7 +3,7 @@ import Rx = require('rxjs/Rx');
 const simpleStream$ = new Rx.BehaviorSubject<string>("z");
 
 simpleStream$.subscribe((value) => {  
-   console.log("first: " + value);
+   console.log("firstObserver: " + value);
 });
 
 simpleStream$.next("a");
@@ -11,7 +11,7 @@ simpleStream$.next("b");
 
 
 simpleStream$.subscribe((value) => {  
-   console.log("second: " + value);
+   console.log("secondObserver: " + value);
 });
 
 simpleStream$.next("c");
