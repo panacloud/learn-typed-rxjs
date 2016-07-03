@@ -1,0 +1,17 @@
+{
+  "name": "step00_helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "devDependencies": {},
+  "scripts": {
+    "start": "tsc && node app",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "author": "Zia Khan",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^5.0.0-beta.9"
+  }
+}
