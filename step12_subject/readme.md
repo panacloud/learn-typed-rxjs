@@ -1,3 +1,7 @@
+Read:
+
+http://reactivex.io/rxjs/manual/overview.html#subject
+
 "Subject has one particularity that prevents us from using it to build observable data services: 
 if we subscribe to it we won't get the last value, we will have to wait until some part of the app calls next()."
 
