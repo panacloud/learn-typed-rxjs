@@ -20,5 +20,6 @@ RxJS 5 Documentation:
 http://reactivex.io/rxjs/manual/overview.html
 
 Also Read:
+"Take what you need, learn about it, use it and move on. Don’t worry to understand everything at once (it’s overwhelming, I promise!)"
 
 http://juristr.com/blog/2016/06/rxjs-1st-steps-subject/
